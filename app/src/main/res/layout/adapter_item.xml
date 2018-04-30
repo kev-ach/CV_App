@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/item_competence_icon" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginTop="10dp"
+        android:text="Menu_CV"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/button_ressources"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Accéder"
+        android:textColor="@android:color/white" />
+</LinearLayout>
